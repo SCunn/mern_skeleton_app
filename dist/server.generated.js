@@ -24,9 +24,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*!***********************************************!*\
   !*** ./server/controllers/user.controller.js ***!
   \***********************************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\n\n//# sourceURL=webpack://mern_skeleton_app/./server/controllers/user.controller.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _models_user_model__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../models/user.model */ \"./server/models/user.model.js\");\n/* harmony import */ var _models_user_model__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_models_user_model__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var lodash_extend__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lodash/extend */ \"lodash/extend\");\n/* harmony import */ var lodash_extend__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lodash_extend__WEBPACK_IMPORTED_MODULE_1__);\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './error.controller'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n\n\nconst create = (req, res, next) => {};\n\nconst list = (req, res) => {};\n\nconst userByID = (req, res, next, id) => {};\n\nconst read = (req, res) => {};\n\nconst update = (req, res, next) => {};\n\nconst remove = (req, res, next) => {};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n  create,\n  userByID,\n  read,\n  list,\n  remove,\n  update\n});\n\n//# sourceURL=webpack://mern_skeleton_app/./server/controllers/user.controller.js?");
 
 /***/ }),
 
@@ -41,6 +42,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./server/models/user.model.js":
+/*!*************************************!*\
+  !*** ./server/models/user.model.js ***!
+  \*************************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: C:\\\\Users\\\\shane\\\\Desktop\\\\nodeFiles\\\\mern_skeleton_app\\\\server\\\\models\\\\user.model.js: The only valid meta property for new is new.target (55:31)\\n\\n\\u001b[0m \\u001b[90m 53 |\\u001b[39m     }\\u001b[33m,\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 54 |\\u001b[39m     makeSalt\\u001b[33m:\\u001b[39m \\u001b[36mfunction\\u001b[39m() {\\u001b[0m\\n\\u001b[0m\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 55 |\\u001b[39m         \\u001b[36mreturn\\u001b[39m \\u001b[33mMath\\u001b[39m\\u001b[33m.\\u001b[39mround((\\u001b[36mnew\\u001b[39m\\u001b[33m.\\u001b[39m\\u001b[33mDate\\u001b[39m()\\u001b[33m.\\u001b[39mvalueOf() \\u001b[33m*\\u001b[39m \\u001b[33mMath\\u001b[39m\\u001b[33m.\\u001b[39mrandom())) \\u001b[33m+\\u001b[39m \\u001b[32m''\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m    |\\u001b[39m                                \\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 56 |\\u001b[39m     }\\u001b[0m\\n\\u001b[0m \\u001b[90m 57 |\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 58 |\\u001b[39m }\\u001b[0m\\n    at Parser._raise (C:\\\\Users\\\\shane\\\\Desktop\\\\nodeFiles\\\\mern_skeleton_app\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:776:17)\\n    at Parser.raiseWithData (C:\\\\Users\\\\shane\\\\Desktop\\\\nodeFiles\\\\mern_skeleton_app\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:769:17)\\n    at Parser.raise (C:\\\\Users\\\\shane\\\\Desktop\\\\nodeFiles\\\\mern_skeleton_app\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:737:17)\\n    at Parser.parseMetaProperty (C:\\\\Users\\\\shane\\\\Desktop\\\\nodeFiles\\\\mern_skeleton_app\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11234:12)\\n    at Parser.parseNewOrNewTarget (C:\\\\Users\\\\shane\\\\Desktop\\\\nodeFiles\\\\mern_skeleton_app\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11380:29)\\n    at Parser.parseExprAtom (C:\\\\Users\\\\shane\\\\Desktop\\\\nodeFiles\\\\mern_skeleton_app\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11063:21)\\n    at Parser.parseExprSubscripts (C:\\\\Users\\\\shane\\\\Desktop\\\\nodeFiles\\\\mern_skeleton_app\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10709:23)\\n    at Parser.parseUpdate (C:\\\\Users\\\\shane\\\\Desktop\\\\nodeFiles\\\\mern_skeleton_app\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10689:21)\\n    at Parser.parseMaybeUnary (C:\\\\Users\\\\shane\\\\Desktop\\\\nodeFiles\\\\mern_skeleton_app\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10667:23)\\n    at Parser.parseExprOps (C:\\\\Users\\\\shane\\\\Desktop\\\\nodeFiles\\\\mern_skeleton_app\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10524:23)\");\n\n//# sourceURL=webpack://mern_skeleton_app/./server/models/user.model.js?");
+
+/***/ }),
+
 /***/ "./server/routes/user.routes.js":
 /*!**************************************!*\
   !*** ./server/routes/user.routes.js ***!
@@ -48,7 +59,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! express */ \"express\");\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _controllers_user_controller__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../controllers/user.controller */ \"./server/controllers/user.controller.js\");\n/* harmony import */ var _controllers_user_controller__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_controllers_user_controller__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst router = express__WEBPACK_IMPORTED_MODULE_0___default().Router();\nrouter.route('/api/users').get((_controllers_user_controller__WEBPACK_IMPORTED_MODULE_1___default().list)).post((_controllers_user_controller__WEBPACK_IMPORTED_MODULE_1___default().create));\nrouter.route('/api/users/:userId').get((_controllers_user_controller__WEBPACK_IMPORTED_MODULE_1___default().read)).put((_controllers_user_controller__WEBPACK_IMPORTED_MODULE_1___default().update)).delete((_controllers_user_controller__WEBPACK_IMPORTED_MODULE_1___default().remove));\nrouter.param('userId', (_controllers_user_controller__WEBPACK_IMPORTED_MODULE_1___default().userByID));\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (router);\n\n//# sourceURL=webpack://mern_skeleton_app/./server/routes/user.routes.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! express */ \"express\");\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _controllers_user_controller__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../controllers/user.controller */ \"./server/controllers/user.controller.js\");\n\n\nconst router = express__WEBPACK_IMPORTED_MODULE_0___default().Router();\nrouter.route('/api/users').get(_controllers_user_controller__WEBPACK_IMPORTED_MODULE_1__.default.list).post(_controllers_user_controller__WEBPACK_IMPORTED_MODULE_1__.default.create);\nrouter.route('/api/users/:userId').get(_controllers_user_controller__WEBPACK_IMPORTED_MODULE_1__.default.read).put(_controllers_user_controller__WEBPACK_IMPORTED_MODULE_1__.default.update).delete(_controllers_user_controller__WEBPACK_IMPORTED_MODULE_1__.default.remove);\nrouter.param('userId', _controllers_user_controller__WEBPACK_IMPORTED_MODULE_1__.default.userByID);\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (router);\n\n//# sourceURL=webpack://mern_skeleton_app/./server/routes/user.routes.js?");
 
 /***/ }),
 
@@ -126,6 +137,17 @@ module.exports = require("express");;
 
 "use strict";
 module.exports = require("helmet");;
+
+/***/ }),
+
+/***/ "lodash/extend":
+/*!********************************!*\
+  !*** external "lodash/extend" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("lodash/extend");;
 
 /***/ }),
 
