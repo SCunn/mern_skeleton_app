@@ -5,7 +5,7 @@ const router = express.Router()
 
 router.route('/api/users')
     .get(userCtrl.list)
-    .post(userCtrl.create)
+    .post(userCtrl.create)  // const create = (req, res, next) => {}
 
 router.route('/api/users/:userId')
     .get(userCtrl.read)
