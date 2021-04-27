@@ -36,7 +36,7 @@ UserSchema
         return this._password
     })
 
-UserSchema.methods= {
+UserSchema.methods = {
     authenticate: function(plainText) {
         return this.encryptPassword(plainText) === this.hashed_password
     },
@@ -52,9 +52,8 @@ UserSchema.methods= {
         }
     },
     makeSalt: function() {
-        return Math.round((new.Date().valueOf() * Math.random())) + ''
+        return Math.round((new Date().valueOf() * Math.random())) + ''
     }
-
 }
 
 UserSchema.path('hashed_password').validate(function(v) {
