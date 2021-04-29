@@ -6,11 +6,16 @@ import cors from 'cors'
 import helmet from 'helmet'
 import Template from './../template'
 import devBundle from './devBundle'
+import path from 'path'
 
 import userRoutes from './routes/user.routes'
 import authRoutes from './routes/auth.routes'
 
 const app = express()
+
+const CURRENT_WORKING_DIR = process.cwd()
+app.use('/dist', express.static(path.join(CURRENT_WORKING_DIR, 'dist')))
+
 devBundle.compile(app)
     
 // app.use(bodyParser.json())
