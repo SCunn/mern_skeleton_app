@@ -5,11 +5,13 @@ import compress from 'compression'
 import cors from 'cors'
 import helmet from 'helmet'
 import Template from './../template'
+import devBundle from './devBundle'
 
 import userRoutes from './routes/user.routes'
 import authRoutes from './routes/auth.routes'
 
 const app = express()
+devBundle.compile(app)
     
 // app.use(bodyParser.json())
 // app.use(bodyParser.urlencoded({ extended: true }))
