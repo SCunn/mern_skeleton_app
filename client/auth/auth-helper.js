@@ -1,6 +1,7 @@
 import { signout } from "./api-auth"
 
 const auth = {
+    // Retrieving credentials
     isAuthenticated() {
         if (typeof window == "undefined")
             return false
@@ -10,11 +11,13 @@ const auth = {
         else
             return false
     },
+    // Saving credentials
     authenticate(jwt, cb) {
         if(typeof window !== "undefined")
             sessionStorage.setItem('jwt', JSON.stringify(jwt))
         cb()
     },
+    // Deleting credentials
     clearJWT(cb) {
         if(typeof window !== "undefined")
             sessionStorage.removeItem('jwt')
